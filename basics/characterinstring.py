@@ -5,7 +5,7 @@ f = 'o'
 
 st = st.replace(" ","")
 
-print(st.count(f))
+print(f'There are {st.count(f)} number of {f} in the string.')
 
 #How do you print the first non-repeated character from a string
 x = "ooofooppijjj"
@@ -19,6 +19,6 @@ for char in x:
 # Find the first non-repeating character
 for char in x:
     if char_count[char] == 1:
-        print(char)
+        print(f'The first non repeated character: {char}')
         break
 
